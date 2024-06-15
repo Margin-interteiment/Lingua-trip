@@ -498,3 +498,38 @@ textarea {
 .contact__inner {
   display: flex;
 }
+
+.contact__content-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000;
+}
+
+.contact__content-text {
+  max-width: 776px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #8f95a5;
+}
+
+.form__input {
+  border: 1px solid #8f95a5;
+  padding: 26px 203px 30px 33px;
+  border-radius: 10px;
+  margin-top: 52px;
+}
+
+.form__btn {
+  padding: 21px 52px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #263238;
+  border: 1px solid #263238;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.contact__content {
+  margin-left: 117px;
+}
