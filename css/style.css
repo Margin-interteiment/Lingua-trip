@@ -109,6 +109,11 @@ textarea {
   font-size: 25px;
   font-weight: 500;
   color: #263238;
+  transition: all 0.3s;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
 }
 
 .header__button {
@@ -120,6 +125,12 @@ textarea {
   border-radius: 5px;
   margin-left: 74px;
   margin-top: -6px;
+  transition: all 0.3s;
+}
+
+.header__button:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 .header__content-inner {
@@ -180,6 +191,12 @@ textarea {
   padding: 21px 99px;
   border: 1px solid #263238;
   margin-top: 61px;
+  transition: all 0.3s;
+}
+
+.header__content-btn:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .skills {
@@ -190,6 +207,7 @@ textarea {
   font-size: 48px;
   font-weight: 600;
   color: #000;
+  margin-left: 24px;
 }
 
 .skills__speaking {
@@ -203,10 +221,22 @@ textarea {
 .skills__speaking-btn {
   margin-top: 36px;
   border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.skills__speaking-btn:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .skills__writing-btn {
   margin-top: 36px;
+  transition: all 0.3s;
+}
+
+.skills__writing-btn:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .skills__speaking-paragraph {
@@ -334,6 +364,12 @@ textarea {
   padding: 17px 64px;
   border: 1px solid #263238;
   border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.skills__reading-btn:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .skills__inner {
@@ -364,6 +400,12 @@ textarea {
   border-radius: 5px;
   height: 60px;
   width: 218px;
+  transition: all 0.3s;
+}
+
+.skills__listening-btn:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .skills__listening-image {
@@ -450,6 +492,7 @@ textarea {
   font-size: 30px;
   font-weight: 600;
   color: #263238;
+  left: 2%;
 }
 
 .price__item-text {
@@ -510,6 +553,7 @@ textarea {
   font-size: 20px;
   font-weight: 400;
   color: #8f95a5;
+  margin-top: 37px;
 }
 
 .form__input {
@@ -528,6 +572,12 @@ textarea {
   border: 1px solid #263238;
   border-radius: 10px;
   margin-left: 12px;
+  transition: all 0.3s;
+}
+
+.form__btn:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .contact__content {

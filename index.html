@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css"/>
     <title>Lingua-trip</title>
   </head>
-  <body>
+  <body id="body">
 
     <header class="header">
       <div class="header_top">
@@ -14,7 +14,7 @@
           <div class="header_top-inner">
             <nav class="menu">
 
-              <a class="logo" href="#body">
+              <a class="logo" href="#">
                 <img
                   class="logo__img"
                   src="images/Britlex.png"
@@ -24,21 +24,21 @@
 
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a class="menu__link" href="#"> Home </a>
+                  <a class="menu__link" href="#body"> Home </a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#"> Skills </a>
+                  <a class="menu__link" href="#skills"> Skills </a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">About Us</a>
+                  <a class="menu__link" href="#about">About Us</a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">
+                  <a class="menu__link" href="#price">
                     Pricing
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#"> Contacts </a>
+                  <a class="menu__link" href="#contact"> Contacts </a>
                 </li>
 
               </ul>
@@ -73,7 +73,7 @@ first sketch after the first lesson.</p>
 
     <main class="main">
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="container">
           <h1 class="skills__title">Skills</h1>
           <div class="skills__inner">
@@ -126,7 +126,7 @@ first sketch after the first lesson.</p>
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about__inner">
             <div class="about__content">
@@ -156,7 +156,7 @@ first sketch after the first lesson.</p>
         </div>
       </section>
 
-      <section class="price">
+      <section class="price" id="price">
         <div class="container">
           <div class="price__inner">
             <h3 class="price__inner-title">Pricing</h3>
@@ -194,7 +194,7 @@ our first session for only $1
         </div>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="container">
           <div class="contact__inner">
             <div class="contact__img">
@@ -226,5 +226,7 @@ our first session for only $1
 
     </main>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
